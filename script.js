@@ -31,7 +31,7 @@ function insertStatusIcon(el) {
     var project = el.pathname;
 
     var img = window.document.createElement('img');
-    img.src = 'https://api.travis-ci.org' + project + '.svg';
+    img.src = 'https://api.travis-ci.org' + project + '.svg?branch=master';
     img.alt = 'build status';
 
 
